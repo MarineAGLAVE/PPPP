@@ -1,0 +1,144 @@
+
+/*################ PAGES ################*/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*################ HEADER ################*/
+#header /*Bandeau du haut de la page*/
+{
+	background-color: rgb(28,28,28) ;
+	padding: 10px;
+    border: 10px #1C1C1C;
+    margin: 0;
+    flex-wrap:nowrap;
+    display: flex;
+	align-items: center;
+}
+#header_txt_box /*Zone de text du bandeau du haut de la page*/
+{
+	background-color: #E7B01F ;
+	padding: 20px;
+    border: 0;
+    margin: 20px;
+    flex-wrap:nowrap;
+    border-radius: 30px;
+    color:rgb(28,28,28);
+   
+}
+#photo_pro /*Caractéristique de la photo*/
+{
+	width: auto;
+	padding: 10px;
+    border: 0;
+    margin: 5px;
+}
+
+/*################ CONTENU ################*/
+#conteneur /*Contenu de la page*/
+{
+	background-color: rgb(244,235,230) ;
+	display: flex;
+	flex-wrap:nowrap;
+	height: 100%;
+}
+section /*Zone de txt*/
+{
+	text-align: justify;
+	width: 800px;
+	border: 5px solid gray;
+    border-radius: 30px;
+    padding: 00px;
+    margin: 50px; 
+    color:rgb(46,46,46);
+}
+section.under_part/*Zone de txt*/
+{
+	text-align: justify;
+	width: 650px;
+	border: 5px solid gray;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 0px; 
+    color:rgb(46,46,46);
+}
+h2.titre{
+	font-family: Gill Sans, serif;
+	color:grey;
+	font-size: 30xp;
+}
+#titre_formation{
+padding: 5xp;
+font-style:italic;
+}
+a{ /*Permet de modifier l'aspect des liens hypertext*/
+	text-decoration: none;
+	color:white;
+}
+
+nav /*Zone de menu glissante*/
+{
+	background-color: rgb(58,140,142);
+	width: 210px;
+	padding: 20px;
+	position:fixed;
+}
+#side_barre /*Zone de menu*/
+{
+	background-color: rgb(58,140,142);
+	width: 210px;
+	min-width:210px;
+	padding: 20px;
+}
+p.navigation_in /*Rectange de l'éléments du menu sur lequel on est*/ 
+{
+	background-color: rgb(78,186,189) ;
+    padding: 10px;
+    font-weight: bold;
+}
+p.navigation_out  /*Rectange de chaque éléments du menu sur lequel on peut aller*/ 
+{
+	background-color: rgb(46,46,46);/*78,186,189*/
+    padding: 10px;
+}
+p.navigation_out:hover /*quand on passe la souris dessus*/
+{
+	background-color: rgb(78,186,189) ;
+    padding: 10px;
+}
+p.navigation_out:active /*quand on a cliqué dessus (quand on est sur cet onglet)*/
+{
+	font-weight: bold;
+    padding: 10px; 
+}
+aside /*Pour mettre des ajouts au texte*/
+{
+	background-color: rgb(78,186,189);
+    border-radius: 30px;
+}
+
+/*################ FOOTERS ################*/
+#footer_up /*Pied de page haut*/
+{
+	background-color: rgb(231,176,31) ;
+	padding: 0px;
+    border: 0px gray;
+    margin: 0;
+    flex-wrap:nowrap;
+}
+#footer_bottom /*Pied de page bas (image)*/
+{
+	background-color: #1C1C1C ;
+    flex-wrap:nowrap;
+}
+#footer_up_inside /*Zone de texte du pied de page haut*/
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
