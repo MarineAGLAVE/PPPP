@@ -1,5 +1,5 @@
 
-/*################ PAGES ################*/
+/*################################ PAGES ################################*/
 html {
   height: 100%;
 }
@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 
-/*################ HEADER ################*/
+/*################################ HEADER ################################*/
 #header /*Bandeau du haut de la page*/
 {
 	background-color: rgb(28,28,28) ;
@@ -39,48 +39,8 @@ body {
     margin: 5px;
 }
 
-/*################ CONTENU ################*/
-#conteneur /*Contenu de la page*/
-{
-	background-color: rgb(244,235,230) ;
-	display: flex;
-	flex-wrap:nowrap;
-	height: 100%;
-}
-section /*Zone de txt*/
-{
-	text-align: justify;
-	width: 800px;
-	border: 5px solid gray;
-    border-radius: 30px;
-    padding: 00px;
-    margin: 50px; 
-    color:rgb(46,46,46);
-}
-section.under_part/*Zone de txt*/
-{
-	text-align: justify;
-	width: 650px;
-	border: 5px solid gray;
-    border-radius: 30px;
-    padding: 30px;
-    margin: 0px; 
-    color:rgb(46,46,46);
-}
-h2.titre{
-	font-family: Gill Sans, serif;
-	color:grey;
-	font-size: 30xp;
-}
-#titre_formation{
-padding: 5xp;
-font-style:italic;
-}
-a{ /*Permet de modifier l'aspect des liens hypertext*/
-	text-decoration: none;
-	color:white;
-}
-
+/*################################ CONTENU ################################*/
+/*################ MENU ################*/
 nav /*Zone de menu glissante*/
 {
 	background-color: rgb(58,140,142);
@@ -121,8 +81,83 @@ aside /*Pour mettre des ajouts au texte*/
 	background-color: rgb(78,186,189);
     border-radius: 30px;
 }
+a{ /*Permet de modifier l'aspect des liens hypertext*/
+	text-decoration: none;
+	color:white;
+}
+/*################ CONTENU ################*/
+#conteneur /*Contenu de la page*/
+{
+	background-color: rgb(244,235,230) ;
+	display: flex;
+	flex-wrap:nowrap;
+	height: 100%;
+}
+section /*Zone de txt*/
+{
+	text-align: justify;
+	width: 800px;
+	border: 5px solid gray;
+    border-radius: 30px;
+    margin: 50px; 
+    color:rgb(46,46,46);
+    margin-top:0.5em;
+}
+section.under_part/*Zone par diplome*/
+{
+	text-align: justify;
+	width: 750px;
+	border: 5px solid gray;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 0px; 
+    color:rgb(46,46,46);
+	padding-top:0;
+}
+h2.titre{
+	font-family: Gill Sans, serif;
+	color:grey;
+	font-size: 2.5em;
+	margin-left: 3em;
+	text-decoration:underline;
+	margin-bottom: 0.5em;
+	margin-top:0.5em;
+}
+/*######## formation ########*/
+.logo_ps/*Zone de image*/
+{
+    float:right;
+    margin:1em;
+    margin-top:2em;
+    margin-bottom:0em;
+    padding: 10xp;
+}
+.logo_uvsq/*Zone de image*/
+{
+    float:right;
+    margin:1em;
+    margin-top:0em;
+    margin-bottom:3em;
+    padding: 10xp;
+}
+.logo_cergy/*Zone de image*/
+{
+    float:right;
+    margin:1em;
+    margin-top:2em;
+    margin-bottom:0em;
+    padding: 10xp;
+}
+#titre_formation{
+	padding: 5xp;
+	font-style:italic;
+}
+/*######## contact ########*/
+p.contact{
+	margin-left: 11em;
+}
 
-/*################ FOOTERS ################*/
+/*################################ FOOTERS ################################*/
 #footer_up /*Pied de page haut*/
 {
 	background-color: rgb(231,176,31) ;
