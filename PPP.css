@@ -81,7 +81,7 @@ aside /*Pour mettre des ajouts au texte*/
 	background-color: rgb(78,186,189);
     border-radius: 30px;
 }
-a{ /*Permet de modifier l'aspect des liens hypertext*/
+a.nav{ /*Permet de modifier l'aspect des liens hypertext*/
 	text-decoration: none;
 	color:white;
 }
@@ -113,6 +113,11 @@ section.under_part/*Zone par diplome*/
     margin: 0px; 
     color:rgb(46,46,46);
 	padding-top:0;
+}
+a.contenu{ /*Permet de modifier l'aspect des liens hypertext*/
+	text-decoration: underline;
+    color:black;
+    font-weight: bold;
 }
 h2.titre{
 	font-family: Gill Sans, serif;
@@ -148,6 +153,10 @@ h2.titre{
     margin-bottom:0em;
     padding: 10xp;
 }
+a.formation{ /*Permet de modifier l'aspect des liens hypertext*/
+	text-decoration: underline;
+    color:black;
+}
 #titre_formation{
 	padding: 5xp;
 	font-style:italic;
@@ -155,6 +164,22 @@ h2.titre{
 /*######## contact ########*/
 p.contact{
 	margin-left: 11em;
+}
+a.mail{ /*Permet de modifier l'aspect des liens hypertext*/
+    text-decoration: underline;
+    color:black;
+}
+/*######## expé pro ########*/
+section.pro/*Zone par diplome*/
+{
+	text-align: justify;
+	width: 300px;
+    
+	border: 5px solid gray;
+    padding: 30px;
+    margin: 0px; 
+    color:rgb(46,46,46);
+	padding-top:0;
 }
 
 /*################################ FOOTERS ################################*/
