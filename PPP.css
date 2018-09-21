@@ -97,7 +97,7 @@ section /*Zone de txt*/
 {
 	text-align: justify;
 	width: 800px;
-	border: 5px solid gray;
+	border: 0;
     border-radius: 30px;
     margin: 50px; 
     color:rgb(46,46,46);
@@ -170,24 +170,134 @@ a.mail{ /*Permet de modifier l'aspect des liens hypertext*/
     color:black;
 }
 /*######## expé pro ########*/
-section.pro/*Zone par diplome*/
+section.pro_bio/*Zone bio*/
 {
-	text-align: justify;
-	width: 300px;
-    
-	border: 5px solid gray;
-    padding: 30px;
-    margin: 0px; 
+	width: 350px;
+    height: 350px;
+	border: 5px solid rgb(58,140,142);
+    padding: 0px;
+    margin: 10px; 
     color:rgb(46,46,46);
-	padding-top:0;
+    border-radius: 0px;
+	float:left;
+	background-color: rgb(28,28,28);
 }
-
+section.pro_info/*Zone info*/
+{
+	width: 350px;
+    height: 350px;
+	border: 5px solid rgb(28,28,28);
+    padding: 0px;
+    margin: 10px; 
+    color:rgb(46,46,46);
+    border-radius: 0px;
+    float: right;
+    background-color:rgb(58,140,142);
+}
+section.text_pro/*zone de texte*/
+{
+	text-align: center;
+	width: 345px;
+	padding: 0px;
+	margin-left: auto;
+    margin-right: auto;
+    border:0;
+    margin-top: 80px; 
+}
+p.grande_maj_bio
+{
+	font-size:175%;
+	line-height:5%;
+	font-weight:bold;
+	margin-top:30px;
+	margin-bottom: 30px;
+	color:rgb(58,140,142);
+}
+p.petite_maj_bio
+{
+	font-variant: small-caps;
+	margin:0px;
+	font-size:100%;
+	color:rgb(58,140,142);
+}
+p.grande_maj_info
+{
+	font-size:175%;
+	line-height:5%;
+	font-weight:bold;
+	margin-top:30px;
+	margin-bottom: 30px;
+	color:rgb(28,28,28);
+}
+p.petite_maj_info
+{
+	font-variant: small-caps;
+	margin:0px;
+	font-size:100%;
+	color:rgb(28,28,28);
+}
+section.sous_pro_bio/*Bouton*/
+{
+	text-align: center;
+	width: 100px;
+    border:2px solid rgb(231,176,31);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    color:rgb(231,176,31);
+    font-weight:bold;
+    border-radius: 0px;
+    background-color: rgb(28,28,28); 
+}
+section.sous_pro_bio:hover/*Bouton dessus*/
+{
+	text-align: center;
+	width: 100px;
+    border:2px solid rgb(231,176,31);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    color:rgb(231,176,31);
+    font-weight:bold;
+    border-radius: 0px;
+    background-color: rgb(58,140,142); 
+}
+section.sous_pro_info/*Bouton*/
+{
+	text-align: center;
+	width: 100px;
+    border:2px solid rgb(231,176,31);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    color:rgb(231,176,31);
+    font-weight:bold;
+    border-radius: 0px;
+    background-color: rgb(58,140,142); 
+}
+section.sous_pro_info:hover/*Bouton dessus*/
+{
+	text-align: center;
+	width: 100px;
+    border:2px solid rgb(231,176,31);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    color:rgb(231,176,31);
+    font-weight:bold;
+    border-radius: 0px;
+    background-color: rgb(28,28,28); 
+}
 /*################################ FOOTERS ################################*/
 #footer_up /*Pied de page haut*/
 {
 	background-color: rgb(231,176,31) ;
 	padding: 0px;
-    border: 0px gray;
+    border: 0px;
     margin: 0;
     flex-wrap:nowrap;
 }
