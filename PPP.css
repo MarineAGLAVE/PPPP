@@ -245,7 +245,6 @@ section.sous_pro_bio/*Bouton*/
     margin-left: auto;
     margin-right: auto;
     margin-top:80px;
-    color:rgb(231,176,31);
     font-weight:bold;
     border-radius: 0px;
     background-color: rgb(28,28,28); 
@@ -259,7 +258,6 @@ section.sous_pro_bio:hover/*Bouton dessus*/
     margin-left: auto;
     margin-right: auto;
     margin-top:80px;
-    color:rgb(231,176,31);
     font-weight:bold;
     border-radius: 0px;
     background-color: rgb(58,140,142); 
@@ -273,7 +271,6 @@ section.sous_pro_info/*Bouton*/
     margin-left: auto;
     margin-right: auto;
     margin-top:80px;
-    color:rgb(231,176,31);
     font-weight:bold;
     border-radius: 0px;
     background-color: rgb(58,140,142); 
@@ -287,10 +284,14 @@ section.sous_pro_info:hover/*Bouton dessus*/
     margin-left: auto;
     margin-right: auto;
     margin-top:80px;
-    color:rgb(231,176,31);
     font-weight:bold;
     border-radius: 0px;
     background-color: rgb(28,28,28); 
+}
+a.pro /*Permet de modifier l'aspect des liens hypertext*/
+{
+	text-decoration: none;
+	color:rgb(231,176,31);
 }
 /*################################ FOOTERS ################################*/
 #footer_up /*Pied de page haut*/
