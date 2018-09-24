@@ -293,6 +293,22 @@ a.pro /*Permet de modifier l'aspect des liens hypertext*/
 	text-decoration: none;
 	color:rgb(231,176,31);
 }
+/*######## expé pro bio ########*/
+#sous_titre_expe_pro_bio{
+	padding: 0xp;
+	font-style:italic;
+	 margin:0px;
+}
+h2.pro_bio{
+    margin:0px;
+    margin-top:10px;
+}
+a.pro_bio{ /*Permet de modifier l'aspect des liens hypertext*/
+	text-decoration: underline;
+    color:black;
+    padding: 0px;
+    margin:0px;
+}
 /*################################ FOOTERS ################################*/
 #footer_up /*Pied de page haut*/
 {
